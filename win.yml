@@ -1,6 +1,6 @@
 - hosts: all
   tasks:
-    - name: List the packages in windows
+    #- name: List the packages in windows
       #win_file:
       #    path: C:\Avinash
       #    state: touch
