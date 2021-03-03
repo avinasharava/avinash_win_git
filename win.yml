@@ -1,9 +1,9 @@
 - hosts: all
   tasks:
     - name: List the packages in windows
-      win_file:
-          path: C:\Avinash
-          state: touch
-      register: package_list
+      #win_file:
+      #    path: C:\Avinash
+      #    state: touch
+      #register: package_list
     - debug:
-        msg: "hi this is {{ package_list }}"
+        msg: "hi this is test"
